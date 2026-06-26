@@ -35,7 +35,7 @@ This project is a robust, scalable, and maintainable automated testing framework
 6. **Clone the repository:**
    ```bash
    git clone https://github.com/paradeesas/ata-it-assignment.git
-   cd rest-api-automation
+   cd ata-it-assignment
 
 7. **## Environment Configuration
 
