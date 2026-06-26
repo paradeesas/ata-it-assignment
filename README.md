@@ -37,7 +37,7 @@ This project is a robust, scalable, and maintainable automated testing framework
    git clone https://github.com/paradeesas/ata-it-assignment.git
    cd ata-it-assignment
 
-7. **## Environment Configuration
+7. **Environment Configuration:**
 
 This project uses environment variables for sensitive configurations. Since the actual `.env` file is excluded from version control for security reasons, you need to set it up manually.
 
