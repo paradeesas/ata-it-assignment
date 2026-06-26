@@ -37,7 +37,20 @@ This project is a robust, scalable, and maintainable automated testing framework
    git clone https://github.com/paradeesas/ata-it-assignment.git
    cd rest-api-automation
 
-7. **How to run:**
+7. **## Environment Configuration
+
+This project uses environment variables for sensitive configurations. Since the actual `.env` file is excluded from version control for security reasons, you need to set it up manually.
+
+   **Create the environment file:**
+   - Copy the provided template file:
+     ```bash
+     cp .env.example .env
+     ```
+
+   **Configure values:**
+   - Open the newly created `.env` file and provide the necessary values (`GOREST_API_TOKEN`, `BASE_URL`: https://gorest.co.in/public/v2).
+
+8. **How to run:**
    ```bash
    mvn clean test
 
